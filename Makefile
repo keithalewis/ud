@@ -1,7 +1,7 @@
 MKDN = ud.md time.md
 HTML = $(MKDN:.md=.html)
 
-FLAGS = -s -t html5 --katex -c ud.css
+FLAGS = -s -t html5 --katex -c ud.css -H header.html
 
 %.html: %.md ud.css
 	pandoc $(FLAGS) $< -o $@
