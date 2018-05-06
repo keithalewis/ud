@@ -11,9 +11,6 @@ all: $(HTML)
 rsync: $(HTML)
 	rsync ud.css $(HTML) kal@web626.webfaction.com:webapps/kalx/ud
 
-gimme:
-	rsync kal@web626.webfaction.com:webapps/kalx/fms/rough/pp.tar pp.tar
-
 .PHONY: clean
 
 clean:
