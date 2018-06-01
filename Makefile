@@ -12,6 +12,5 @@ rsync: $(HTML)
 	rsync ud.css *.html kal@web626.webfaction.com:webapps/kalx/ud
 
 .PHONY: clean
-
 clean:
 	rm $(HTML)

@@ -1,7 +1,7 @@
-# Random Variable
+# Random Variables
 
 A _random variable_ is a variable, i.e., a symbol that takes the place
-of a number and can be manipulated in relations, that has additional
+of a number and can be manipulated in relations and has
 information about the _probability_ it takes on values.
 
 A _discrete random variable_, $X$, is specified by a countable set
@@ -13,7 +13,8 @@ We write $P(X = x_j) = p_j$.
 A _continuously distributed random variable_, $X$, is specified by a
 non-negative _probability density function_, $f$, with $\int_{-\infty}^\infty
 f(x)\,dx = 1$. The probability that $X$ is between $a$ and $b$ is $P(a <
-X < b) = \int_a^b f(x)\,dx$.
+X < b) = \int_a^b f(x)\,dx$. Note $P(X = c) = 0$ for any $c$ so
+strict or weak inequalities give the same probability.
 
 Every _random variable_ is specified by a _cumulative distribution
 function_, $F$, that goes from 0 at minus infinity, increases to 1 at
