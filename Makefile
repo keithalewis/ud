@@ -1,4 +1,4 @@
-MKDN = cumulant.md ds.md entity.md greeks.md instrument.md random_variable.md README.md time.md ud.md vega.md
+MKDN = cumulant.md ds.md entity.md greeks.md instrument.md random_variable.md README.md time.md ud.md vega.md vs.md
 HTML = $(MKDN:.md=.html)
 
 FLAGS = -s -t html5 --katex -c ud.css -H header.html
