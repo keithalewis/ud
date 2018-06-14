@@ -1,8 +1,11 @@
-# Vector Spaces
+# Vectors
 
 Some people think _vectors_ are just a list of numbers:
-$x = (x_1, \ldots, x_n) = (x_i)_{i=1}^n$.
-You can multiply vector by a number $a(x_i) = (ax_i)$.
+$x = (x_1, \ldots, x_n) = (x_i)_{i=1}^n$, where $x_j$
+are _real numbers_, denoted $\mathbb{R}$. The set of
+all $n$-dimensionl vectors is denoted $\mathbb{R}^n$.
+
+You can multiply a vector by a number $a(x_i) = (ax_i)$.
 You can add two vectors: $(x_i) + (y_i) = (x_i + y_i)$.
 The scalar multiplication and vector addition satisfy the distributive law:
 $a(x + y) = ax + ay$.
@@ -11,7 +14,16 @@ If that is all you think they are you are missing out.  Mathematical
 objects are defined by the rules they satisfy.  Computer scientists have
 been catching on to [this](http://www.stepanovpapers.com/DeSt98.pdf). The
 objects and functions from one object to another that preserve the
-operations defined on objects are a _category_.
+operations defined on objects are what we in the business call a
+[_category_](...).
+
+For example $A^B$, where $A$ and $B$ are sets, is the set of all
+functions from $B$ to $A$. If you think of $n$ as the set
+$\{1,\ldots,n\}$ then one way to define $x\colon n \to \mathbb{R}$
+is to list the range of $x$: $(x_1,\ldots,x_n)$,
+or $j\mapto x_j$ for $j = 1,\ldots,n$.
+
+The set $A^B$ is a vector space. (A is a R module)
 
 A _vector space_ is a set, $V$, having a scalar multiplication
 $\mathbb{R}\times V\to V$, $(a,v)\mapsto av$, and addition
@@ -22,7 +34,6 @@ $a(v + w) = av + aw$.
 
 Note, for example, that functions are vectors.  Also, (homogeneous)
 solutions to linear differential equations are vectors.
-
 
 A subset $W\subseteq V$ is a _subspace_ if it is closed under
 scalar multiplication and vector addition:
