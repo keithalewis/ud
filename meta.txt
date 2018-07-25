@@ -1,0 +1,11 @@
+---
+title:
+- type: main
+  text: Unified Derivatives
+- type: subtitle
+  text: Value, hedge, and manage risk of any portfolio
+creator:
+- role: author
+  text: Keith A. Lewis
+stylesheed: ud.css
+...
