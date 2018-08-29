@@ -1,5 +1,4 @@
 # Unified Derivatives
-## Keith A. Lewis
 
 This note describes a uniform approach to valuing, hedging, and determining
 the risk of derivative securities. A _derivative security_ is a contract
